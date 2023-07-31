@@ -13,7 +13,8 @@
 
 <img width="359" height="200" alt="game1" src="https://github.com/tobwil/Democracy-Invaders/assets/72387477/e500c649-0619-4e43-89e9-d8abe731e498">
 <img width="359" height="200" alt="game2" src="https://github.com/tobwil/Democracy-Invaders/assets/72387477/6af76326-6e91-4f62-a9c1-0f61b2038b0f">
-<img width="359" height="200" alt="game3" src="https://github.com/tobwil/Democracy-Invaders/assets/72387477/3eb92aac-3e42-45b6-8312-0ea93e319616">
+<img width="359" height="200" alt="game3" src="https://github.com/tobwil/Democracy-Invaders/assets/72387477/1bb52c41-b513-46c0-99cc-a676bd8cbf1e">
+
 
 ---
 
