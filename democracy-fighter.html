@@ -13,7 +13,7 @@
       display: block;
       margin: 0 auto;
       background-color: #000;
-      background-image: url('https://you.com/proxy?url=https%3A%2F%2Fcdn.you.com%2Fstable-diffusion%2F2d66d722-86cb-42ff-9fda-7277c03565bd.png');
+      background-image: url('https://github.com/tobwil/Democracy-Invaders/blob/main/sources/background_robot.png?raw=true');
       background-repeat: no-repeat;
       background-size: cover;
     }
@@ -29,7 +29,7 @@
     const ctx = canvas.getContext('2d');
     
     const shipImg = new Image();
-    shipImg.src = 'https://o.remove.bg/downloads/e460494c-d090-41f1-b074-d3e7a04cebc0/bef370a1-a51f-4e95-83eb-06a33a1836f3-removebg-preview.png';
+    shipImg.src = 'https://github.com/tobwil/Democracy-Invaders/blob/main/sources/chancellor.png?raw=true';
 
     const invaderImg = new Image();
     invaderImg.src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/AfD_Logo_2021.svg/270px-AfD_Logo_2021.svg.png';
@@ -219,7 +219,7 @@
             const explosion = new Image();
             const explosionX = invader.x + invader.width / 2 - 25;
             const explosionY = invader.y + invader.height / 2 - 25;
-            explosion.src = '';
+            explosion.src = 'https://github.com/tobwil/Democracy-Invaders/blob/main/sources/explosion.png?raw=true';
 
             ctx.drawImage(explosion, explosionX, explosionY, 50, 50);
             setTimeout(() => {
