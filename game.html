@@ -13,7 +13,7 @@
       display: block;
       margin: 0 auto;
       background-color: #000;
-      background-image: url('https://github.com/tobwil/Democracy-Invaders/blob/main/sources/background_robot.png?raw=true');
+      background-image: url('https://github.com/tobwil/Democracy-Invaders/blob/main/sources/background_berlin2.png?raw=true');
       background-repeat: no-repeat;
       background-size: cover;
     }
@@ -224,7 +224,7 @@
             ctx.drawImage(explosion, explosionX, explosionY, 50, 50);
             setTimeout(() => {
               ctx.clearRect(explosionX, explosionY, 50, 50);
-            }, 2000);
+            }, 500);
 
             bullets.splice(bulletIndex, 1);
             invaders.splice(invaderIndex, 1);
